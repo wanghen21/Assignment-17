@@ -17,5 +17,6 @@ In this challege, we are investigating the file "loan_stats csv" to predict whet
 ![BalancedRandomForester](https://user-images.githubusercontent.com/80020446/126086452-74f59084-d433-468c-96c1-de1a1bc968d1.PNG)
 #Easy Ensemble Learner
 ![EasyEnsemble](https://user-images.githubusercontent.com/80020446/126086453-04434429-ef38-4a14-8d6a-a08868adacee.PNG)
-#Summary
+
+Summary
 In the first four models we undersampled, oversampled and did a combination of both to try and determine which model is best at predicting which loans are the highest risk. The next two models we resampled the data using ensemble classifiers to try and predict which which loans are high or low risk. In our first four models our accuracy score is not as high as the ensemble classifiers and the recall in the oversampling/undersampling/mixed models is low as well. Typically in your models you want a good balance of recall and precision which is why I recommend the ensemble classifiers over the first four models. It appears that the Easy Ensemble had the best balance of all the models because of it's high accuracy score and good balance of precision and recall scores.
